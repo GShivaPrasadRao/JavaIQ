@@ -14,5 +14,6 @@ public class FilterEvenNumbers {
                 collect(Collectors.toList());
 
         System.out.println("Even numbers: " + result);
+
     }
 }
