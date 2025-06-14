@@ -11,7 +11,7 @@ public class FilterEvenNumbers {
         // Using Stream API to filter even numbers
         List<Integer> result = numbers.stream().
                 filter(n -> n % 2 == 0).
-                collect(Collectors.toList());
+                toList();
 
         System.out.println("Even numbers: " + result);
 

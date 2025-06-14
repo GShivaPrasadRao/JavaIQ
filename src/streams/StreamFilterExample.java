@@ -43,7 +43,7 @@ public class StreamFilterExample {
         // Filtering employees with salary > 50,000
         List<Employee> highPaidEmployees = employees.stream()
                 .filter(emp -> emp.getSalary() > 50000)  // Filter condition
-                .collect(Collectors.toList());          // Collect to list
+                .toList();          // Collect to list
 
         // Print the filtered employees
         highPaidEmployees.forEach(System.out::println);

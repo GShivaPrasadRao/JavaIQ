@@ -11,7 +11,7 @@ public class LengthBasedFiltering {
         // Using Stream API to filter words with length > 3
         List<String> filteredWords = words.stream()
                 .filter(word -> word.length() > 3)
-                .collect(Collectors.toList());
+                .toList();
 
         System.out.println("Words with length > 3: " + filteredWords);
     }
