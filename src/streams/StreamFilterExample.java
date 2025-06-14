@@ -3,12 +3,11 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
-import java.util.stream.Collectors;
 
 class Employee {
-    private String name;
-    private String department;
-    private double salary;
+    private final String name;
+    private final String department;
+    private final double salary;
 
     // Constructor
     public Employee(String name, String department, double salary) {
@@ -18,9 +17,17 @@ class Employee {
     }
 
     // Getters
-    public String getName() { return name; }
-    public String getDepartment() { return department; }
-    public double getSalary() { return salary; }
+    public String getName() {
+        return name;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
 
     // toString() for printing
     @Override
