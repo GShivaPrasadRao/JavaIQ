@@ -3,6 +3,7 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
+//Find the maximum value from the given number
 public class MaximumValue {
 
     public static void main(String[] args) {

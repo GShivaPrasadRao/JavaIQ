@@ -3,6 +3,8 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
+
+//Find the unique/distinct numbers from the list
 public class DistinctNumbers {
     public static void main(String[] args) {
 

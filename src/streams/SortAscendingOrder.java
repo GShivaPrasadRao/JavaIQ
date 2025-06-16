@@ -3,6 +3,7 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
+//Sort the list in ascending order
 public class SortAscendingOrder {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 10, 20, 30, 55, 76, 23, 59, 92);

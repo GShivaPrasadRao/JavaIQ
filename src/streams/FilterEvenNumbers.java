@@ -3,6 +3,7 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
+//Filter the even numbers
 public class FilterEvenNumbers {
 
     public static void main(String[] args) {

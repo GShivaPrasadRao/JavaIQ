@@ -3,6 +3,7 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
+//Convert the words to Upper Case
 public class UpperCase {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("cat", "apple", "dog", "banana", "sky", "java");

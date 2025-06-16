@@ -3,6 +3,7 @@ package streams;
 import java.util.Arrays;
 import java.util.List;
 
+//Filter the words that are more than the given number
 public class LengthBasedFiltering {
     public static void main(String[] args) {
         List<String> words = Arrays.asList("cat", "apple", "dog", "banana", "sky", "java");
