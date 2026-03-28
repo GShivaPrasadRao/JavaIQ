@@ -13,7 +13,8 @@ public class StringReverse {
         //Converting the input string into an array of characters.
         char[] result = input.toCharArray();
 
-        //Iterating through this character array starting from the last character and moving towards the first.
+        //Iterating through this character array starting from the last character
+        // and moving towards the first.
         for (int i = result.length - 1; i >= 0; i--) {
 
             out.append(result[i]);//Appending each character encountered during the reverse iteration to a StringBuilder object

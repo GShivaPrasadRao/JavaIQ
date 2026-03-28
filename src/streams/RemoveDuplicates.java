@@ -8,7 +8,8 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 22, 34, 44, 55, 66, 77, 22, 45, 55);
-        List<Integer> result = numbers.stream().distinct().toList();
+        List<Integer> result = numbers.stream()
+                                .distinct().toList();
         System.out.println("Result:" + result);
 
     }

@@ -8,7 +8,7 @@ public class EnhancedForLoop {
 
     public static void main(String[] args) {
         int specifiedNumber = 5;
-        List<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<>();
 
         // Create a list of numbers up to the specified number
         for (int i = 1; i <= specifiedNumber; i++) {
